@@ -3,10 +3,10 @@ import profile from '../assets/profile.png'
 import resume from '../resume/Abhishek_Arora_Resume.pdf'
 export default function About() {
 
-  const resumeUrl = {resume}; 
+  // const resumeUrl = {resume}; 
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = resumeUrl;
+    link.href = {resume};
     link.download = "Abhishek_Arora_Resume.pdf"; 
     document.body.appendChild(link);
     link.click();
