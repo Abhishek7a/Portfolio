@@ -10,7 +10,7 @@ import CodeSnippet from "../assets/CodeSnippet.png";
 export default function Project() {
   return (
     <>
-    <ProjectCard
+      <ProjectCard
         image={CodeSnippet}
         title={"Code Snippet"}
         link="https://code-snippet-livid.vercel.app/ "
@@ -36,7 +36,7 @@ export default function Project() {
         link="https://9r2inq.csb.app/"
         disc="Developed a Instagram Clone with a HTML and CSS Developed a Instagram Clone with a HTML and CSSDeveloped a Instagram Clone with a HTML and CSS "
       />
-      
+
       <ProjectCard
         image={PotentiaImage}
         title={"Potentia Acedmy"}
@@ -52,11 +52,9 @@ export default function Project() {
       />
       <ProjectCard
         image={LagendaryBookStore}
-        title={"Lagendary Book Store"}
-        link="https://potencia-academy.vercel.app/"
-        disc="Developed a movie ticket booking platform with a React.js
-              frontend, styled using TailwindCSS, featuring real‑time data
-              rendering from an API and Razorpay integration for payments."
+        title={"Legendary Book Store"}
+        link="https://abhishek7a.github.io/legendaryBookStore/"
+        disc="Developed a full‑stack project with a React frontend and  MongoDB Atlas as the backend database, featuring an intuitive search bar, bookmarking functionality, custom toast notifications."
       />
     </>
   );
