@@ -40,10 +40,9 @@ export default function Project() {
       <ProjectCard
         image={PotentiaImage}
         title={"Potentia Acedmy"}
-        link="https://potencia‑academy.vercel.app/"
-        disc="Developed a movie ticket booking platform with a React.js
-              frontend, styled using TailwindCSS, featuring real‑time data
-              rendering from an API and Razorpay integration for payments."
+        link="https://potencia-academy.vercel.app/"
+        disc="Developed a Educational platform with a React.js
+              frontend, styled using Bootstap."
       />
       <ProjectCard
         image={Zomato}
@@ -54,7 +53,7 @@ export default function Project() {
       <ProjectCard
         image={LagendaryBookStore}
         title={"Lagendary Book Store"}
-        link="https://potencia‑academy.vercel.app/"
+        link="https://potencia-academy.vercel.app/"
         disc="Developed a movie ticket booking platform with a React.js
               frontend, styled using TailwindCSS, featuring real‑time data
               rendering from an API and Razorpay integration for payments."
