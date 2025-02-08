@@ -2,7 +2,7 @@ import React from "react";
 import profile from '../assets/profile.png'
 export default function About() {
 
-  const resumeUrl = "../resume/Abhishek_Arora_Resume.pdf.pdf"; 
+  const resumeUrl = "../resume/Abhishek_Arora_Resume.pdf"; 
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href = resumeUrl;
