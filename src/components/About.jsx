@@ -1,6 +1,6 @@
 import React from "react";
 import profile from '../assets/profile.png'
-import resume from '../resume/Abhishek_Arora_Resume.pdf'
+import resume from '../../public/Abhishek_Arora_Resume.pdf'
 export default function About() {
 
   // const resumeUrl = {resume}; 
