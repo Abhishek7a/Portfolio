@@ -1,6 +1,16 @@
 import React from "react";
 import profile from '../assets/profile.png'
 export default function About() {
+
+  const resumeUrl = "../resume/Abhishek_Arora_Resume.pdf.pdf"; 
+  const downloadResume = () => {
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "Abhishek_Arora_Resume.pdf"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div>
       <section className="about" id="about">
@@ -30,12 +40,11 @@ export default function About() {
               {/* <!-- <p><strong>Phone:</strong> 9464647237</p> --> */}
               {/* <!-- <p><strong>Project Complete:</strong> 73</p> --> */}
               <br />
-              <a
-                href="resume/Abhishek_Arora_Resume.pdf"
+              <button onClick={downloadResume} 
                 className="btn download-cv"
               >
                 Download CV
-              </a>
+              </button>
             </div>
           </div>
         </div>
