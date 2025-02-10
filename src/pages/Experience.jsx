@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <div className="w-1/2 mx-auto">
+    <div className="w-1/2 mx-auto mt-10">
       <h3 className="text-2xl text-gray-700 font-bold mb-6 ml-3">
         {" "}
         Experience
@@ -23,9 +23,9 @@ export default function Experience() {
                 <circle cx="250" cy="250" r="190" fill="white" />
               </svg>
             </div>
-            <div className="block px-10 md:pt-4 py-2 rounded-lg shadow-lg bg-gray-900 max-w-md ml-6 md:mb-10">
+            <div className="block px-10 md:pt-4 w-64  py-2 rounded-lg shadow-lg bg-gray-900 max-w-md ml-6 md:mb-10">
               <div className="flex justify-between md:mb-4">
-                <div className="font-medium text-green-800 hover:text-green-700 focus:text-green-800  duration-300 transition ease-in-out md:text-xl">
+                <div className="font-normal  text-green-800 hover:text-green-700 focus:text-green-800  duration-300 transition ease-in-out md:text-xl">
                   Teliolabs Communication
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function Experience() {
                 <circle cx="250" cy="250" r="150" fill="white" />
               </svg>
             </div>
-            <div className="block px-10 pt-4 md:py-2  rounded-lg shadow-lg bg-gray-900 max-w-md ml-6 md:mb-10">
+            <div className="block px-10 pt-4 md:py-2 w-64 rounded-lg shadow-lg bg-gray-900 max-w-md ml-6 md:mb-10">
               <div className="flex justify-between mb-4">
                 <div className="font-medium text-orange-600 hover:text-orange-700 focus:text-orange-800 duration-300 transition ease-in-out md:text-xl">
                   JP Morgan Chase
@@ -79,9 +79,9 @@ export default function Experience() {
                 <circle cx="250" cy="250" r="150" fill="white" />
               </svg>
             </div>
-            <div className="block px-6 md:px-10 pt-4 md:py-2  rounded-lg shadow-lg bg-gray-900 max-w-md ml-6 md:mb-10">
+            <div className="block px-6 md:px-10 pt-4 md:py-2 w-64  rounded-lg shadow-lg bg-gray-900 max-w-md ml-6 md:mb-10">
               <div className="flex justify-between mb-4">
-                <div className="font-medium text-orange-600   hover:text-orange-700 focus:text-orange-800 duration-300 transition ease-in-out md:text-xl text-sm">
+                <div className="font-medium text-orange-600  hover:text-orange-700 focus:text-orange-800 duration-300 transition ease-in-out md:text-xl text-sm">
                   Potentia Academy
                 </div>
               </div>
@@ -107,7 +107,7 @@ export default function Experience() {
                 <circle cx="250" cy="250" r="150" fill="white" />
               </svg>
             </div>
-            <div className="block px-10 pt-4 md:py-2  rounded-lg shadow-lg bg-gray-900 max-w-md ml-6 mb-10">
+            <div className="block px-6 md:px-10 pt-4 md:py-2 w-64  rounded-lg shadow-lg bg-gray-900 max-w-md ml-6 md:mb-10">
               <div className="flex justify-between mb-4">
                 <div className="font-medium text-orange-600 hover:text-orange-700 focus:text-orange-800 duration-300 transition ease-in-out ,md:text-xl">
                   Suvidha Foundations

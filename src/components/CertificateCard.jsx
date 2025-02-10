@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function CertificateCard(props) {
   return (
-    
+    <div className=" sm:w-1/2 md:w-1/3 mx-auto pt-2">
         <div className="relative  px-2">
           <Link
             to={props.link}
@@ -42,6 +42,6 @@ export default function CertificateCard(props) {
             </div>
           </Link>
         </div>
-   
+        </div>
   );
 }

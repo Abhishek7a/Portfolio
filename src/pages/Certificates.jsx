@@ -11,7 +11,7 @@ export default function CertificateCard() {
   return (
     <>
       <div className=" flex flex-wrap justify-around items-center">
-        <div className=" w-full sm:w-1/2 md:w-1/3 mx-auto pt-2">
+        
           <Certificates
             name={"JP Morgan Chase & Co."}
             heading={"Internship"}
@@ -66,7 +66,6 @@ export default function CertificateCard() {
             link={"https://www.cert.devtown.in/verify/2bsKzi"}
           />
         </div>
-      </div>
     </>
   );
 }
