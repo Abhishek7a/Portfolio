@@ -18,7 +18,7 @@ export default function ProjectCard(props) {
             {props.title}
             </h3>
             <h4 className="w-full text-xl text-gray-900 leading-tight">
-              Bienvenido a
+            {props.disc}
             </h4>
           </div>
           <svg
