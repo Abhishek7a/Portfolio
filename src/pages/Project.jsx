@@ -6,6 +6,7 @@ import PotentiaImage from "../assets/PotentiaImage.png";
 import ProjectCard from "../components/ProjectCard";
 import FoodFusion from "../assets/FoodFusion.png";
 import Zomato from "../assets/Zomato.png";
+import Portfolio from "../assets/Portfolio.png";
 import CodeSnippet from "../assets/CodeSnippet.png";
 export default function Project() {
   return (
@@ -13,7 +14,7 @@ export default function Project() {
       <ProjectCard
         image={CodeSnippet}
         title={"Code Snippet"}
-        link="https://code-snippet-livid.vercel.app/ "
+        link="https://code-snippet-livid.vercel.app/"
         disc="Developed a Code Snippet Sharing Platform where users can quickly copy reusable HTML, CSS, and React components. The platform provides a clean UI to browse, preview, and copy component code"
       />
       <ProjectCard
@@ -21,6 +22,12 @@ export default function Project() {
         title={"Food Fusion"}
         link="https://cx23rj-3000.csb.app/"
         disc="Developed a food ordering website with a React frontend, MongoDB Atlas as the database, and AWS as the cloud provider."
+      />
+      <ProjectCard
+        image={Portfolio}
+        title={"Portfolio"}
+        link="https://portfolio-six-pi-96.vercel.app/"
+        disc="Developed a Code Snippet Sharing Platform where users can quickly copy reusable HTML, CSS, and React components. The platform provides a clean UI to browse, preview, and copy component code"
       />
       <ProjectCard
         image={movieTime}
@@ -41,8 +48,10 @@ export default function Project() {
         image={PotentiaImage}
         title={"Potentia Acedmy"}
         link="https://potencia-academy.vercel.app/"
-        disc="Developed a Educational platform with a React.js
-              frontend, styled using Bootstap."
+        disc="Designed and developed an educational website us‐
+ing the MERN stack, integrating Bootstrap for respon‐
+sive design, Email.js for email functionality, and Mul‐
+ter for handling client‐side resume uploads."
       />
       <ProjectCard
         image={Zomato}
