@@ -20,7 +20,7 @@ export default function Project() {
       <ProjectCard
         image={FoodFusion}
         title={"Food Fusion"}
-        link="https://cx23rj-3000.csb.app/"
+        link="https://abhishek7a.github.io/foodfusion/"
         disc="Developed a food ordering website with a React frontend, MongoDB Atlas as the database, and AWS as the cloud provider."
       />
       <ProjectCard
