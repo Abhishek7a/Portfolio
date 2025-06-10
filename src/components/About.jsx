@@ -44,7 +44,7 @@ export default function About() {
             <div className="mt-6 text-center md:text-center ">
               <a
               target="_blank"
-                href="https://drive.google.com/file/d/1AArxT7ueHFxJjeWASuiKz5CPYrTLbhrQ/view?usp=sharing"
+                href="https://drive.usercontent.google.com/u/0/uc?id=1qUtBT5-xJ3KArUvEdARTFuMEbUqhmYHw&export=download"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300"
               >
                 Download CV
