@@ -34,7 +34,7 @@ export default function About() {
                 ].map(([label, value]) => (
                   <tr key={label} >
                     <td className="px-4 py-2 font-semibold text-orange-400">{label}:</td>
-                    <td className="px-4 py-2 dark:text-gray-300">{value}</td>
+                    <td className="px-4 py-2 ">{value}</td>
                   </tr>
                 ))}
               </tbody>
