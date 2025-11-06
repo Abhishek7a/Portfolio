@@ -13,7 +13,7 @@ export default function Skill() {
   ];
 
   return (
-    <section id="skills" className="dark:bg-gray-900 py-16 sm:py-24 lg:pb-80 ">
+    <section id="skills" className="dark:bg-gray-900 py-16 sm:py-24 lg:pb-80  md:pb-80">
   <div className="container mx-auto px-6">
     {/* Section Title */}
     <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 ">
