@@ -73,8 +73,21 @@ export default function CertificateCard() {
           date={"Nov 2022"}
           link={"https://www.cert.devtown.in/verify/2bsKzi"}
         />
+         <Certificates
+          name={"Hands on cloud computing with AWS"}
+          img={Microsoft2}
+          heading={"Bootcamp"}
+          date={"Jan 2023"}
+          link={"https://www.cert.devtown.in/verify/Z1JlwMr"}
+        />
+          <Certificates
+          name={"Learn DevOps for Web Development"}
+          img={Google2}
+          heading={"Bootcamp"}
+          date={"Jan 2023"}
+          link={"https://www.cert.devtown.in/verify/12FERL"}
+        />
       </div>
     </>
   );
 }
-//
