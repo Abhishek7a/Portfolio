@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useAppContext } from "../AppContext";
 export default function Skill() {
+    const { dark, setDark } = useAppContext();
   const skills = [
     { name: "HTML", level: "90%", color: "#ff4500" },
     { name: "React.js", level: "95%", color: "#00ffff" },
@@ -13,7 +14,7 @@ export default function Skill() {
   ];
 
   return (
-       <section id="skills"className={` ${dark===false ? "dark:text-gray-100 bg-gray-900":"bg-gray-100"} py-16 sm:py-24 lg:pb-80 `} >
+    <section id="skills"className={` ${dark===false ? "dark:text-gray-100 bg-gray-900":"bg-gray-100"} py-16 sm:py-24 lg:pb-80 `} >
   <div className="container mx-auto px-6">
     {/* Section Title */}
     <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 ">
