@@ -28,7 +28,7 @@ function App() {
         }`}
       >
         <body
-          className={`app md:w-[80%] mx-auto ${
+          className={`app md:w-[80%]  min-h-screen  mx-auto ${
             dark === false
               ? "bg-gray-950 text-gray-100 "
               : " text-gray-800"
