@@ -3,7 +3,9 @@ import JPMorganCertificate from "../assets/Certificates/JPMorganCertificate.png"
 import SuvidhaFoundation from "../assets/Certificates/SuvidhaFoundationCertificate.png";
 import PotentiaAcedmy from "../assets/Certificates/PotentiaCertificate.png";
 import Microsoft from "../assets/Certificates/Microsoft.png";
+import Microsoft2 from "../assets/Certificates/Microsoft2.png";
 import Google from "../assets/Certificates/Google.png";
+import Google2 from "../assets/Certificates/Google2.png";
 import Devtown from "../assets/Certificates/Devtown.png";
 import Teliolabs from "../assets/Certificates/Teliolabs.png";
 import Certificates from "../components/CertificateCard";
