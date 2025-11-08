@@ -85,7 +85,7 @@ export default function About() {
             {/* Download Button */}
             <div className="mt-8 text-center">
               <motion.a
-                href="https://drive.usercontent.google.com/u/0/uc?id=1qUtBT5-xJ3KArUvEdARTFuMEbUqhmYHw&export=download"
+                href="https://drive.usercontent.google.com/u/0/uc?id=1jY0A6x4ZCwZdG8_BvA8ZlThv8QashtO2&export=download"
                 whileHover={{ scale: 1.08 }}
                 whileTap={{ scale: 0.95 }}
                 className="relative inline-block px-8 py-3 font-semibold text-white rounded-full overflow-hidden group"
